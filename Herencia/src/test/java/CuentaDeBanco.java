@@ -39,9 +39,10 @@ public class CuentaDeBanco {
         this.edadCliente = edad;
     }
     public void actualizarDatos(String nombreCliente){
+
         this.nombreCliente = nombreCliente;
     }
-    public void mostrarMonto(double monto){
+    public void mostrarMonto(){
         System.out.println("su Balance actual es: " + monto);
     }
 }
